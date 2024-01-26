@@ -1,0 +1,101 @@
+.filter {
+  padding: 3px;
+  border: 1px solid black;
+  border-radius: 17px;
+  background: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.searchFilter {
+  height: 30px;
+  border-radius: 17px;
+  outline: none;
+  text-align: start;
+  border: none;
+}
+
+.searchFilter::placeholder {
+  font-weight: bolder;
+}
+@media screen and (max-width: 992px) {
+  .filter {
+    padding: 1px;
+  }
+  .filter svg {
+    font-size: 15px;
+  }
+  .searchFilter {
+    width: 120px;
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 778px) {
+  .filter {
+    width: 110px;
+    height: 30px;
+  }
+  .filter svg {
+    font-size: 12px;
+    margin-right: 4px;
+  }
+  .searchFilter {
+    width: 80px;
+    font-size: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media screen and (max-width: 640px) {
+  .filter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    height: 30px;
+    font-size: 7px;
+    gap: 0.5px;
+  }
+
+  .searchFilter {
+    width: 45px;
+    height: 20px;
+    font-size: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .filter svg {
+    font-size: 8px;
+    margin-right: 8px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .filter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70px;
+    height: 30px;
+    font-size: 7px;
+    gap: 0.5px;
+  }
+
+  .searchFilter {
+    width: 45px;
+    height: 20px;
+    font-size: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .filter svg {
+    font-size: 8px;
+    margin-right: 8px;
+  }
+}

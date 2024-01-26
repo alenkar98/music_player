@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MusicUploadForm component renders correctly 1`] = `
+<div
+  className="upload"
+>
+  <input
+    accept=".mp3,.wav"
+    className="input"
+    id="file-input"
+    name="filename"
+    onChange={[Function]}
+    type="file"
+  />
+  <label
+    className="file-input-label"
+    htmlFor="file-input"
+  >
+    Select a File
+  </label>
+  <label
+    className="disabled"
+    onClick={[Function]}
+  >
+    Upload
+  </label>
+</div>
+`;

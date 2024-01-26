@@ -1,0 +1,30 @@
+.upload {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.input{
+    display:none;
+}
+
+.file-input-label {
+    text-align: center;
+    background: rgb(224, 224, 224);
+    color: #6e6a6a;
+    padding: 10px;
+    cursor: pointer;
+    border: 1px black solid;
+}
+
+.disabled {
+    text-align: center;
+    background: rgb(241, 241, 241);
+    color: #bbbbbb;
+    padding: 10px;
+    cursor: no-drop;
+    border: 1px black solid;
+}
+

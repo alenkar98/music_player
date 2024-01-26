@@ -1,0 +1,48 @@
+.playAll {
+    padding: 10px;
+    border: 1px solid black;
+    display: flex;
+    gap: 0.5rem;
+    justify-content: center;
+    border-radius: 5px;
+    background: #F0F0F0;
+    cursor: pointer;
+    font-weight: bolder;
+}
+@media  screen and (max-width:992px){
+    .playAll{
+        padding:7px;
+    }
+    }
+    @media  screen and (max-width:768px){
+        .playAll{
+            width: 70px;
+            height: 30px;
+            font-size: 10px;
+          
+        }
+        }
+        
+            @media  screen and (max-width:640px){
+                .playAll{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    width: 55px;
+                    height: 30px;
+                    font-size: 7px;
+                    gap: 0.1rem;
+                }
+                }
+        @media  screen and (max-width:480px){
+            .playAll{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 50px;
+                height: 30px;
+                font-size: 7px;
+                gap: 0.1rem;
+            }
+            }
+           

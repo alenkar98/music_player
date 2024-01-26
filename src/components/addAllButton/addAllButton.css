@@ -1,0 +1,56 @@
+.addAll {
+    padding: 10px;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    background: #F0F0F0;
+    gap: 0.5rem;
+    cursor: pointer;
+    font-weight: bolder;
+}
+
+@media screen and (max-width:992px) {
+    .addAll {
+        padding: 7px;
+    }
+}
+
+
+@media screen and (max-width:768px) {
+    .addAll {
+        width: 70px;
+        height: 30px;
+        font-size: 10px;
+        gap: 0.1rem;
+    }
+}
+
+@media screen and (max-width:640px) {
+    .addAll {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 55px;
+        height: 30px;
+        font-size: 7px;
+        gap: 0;
+    }
+
+    .addAll svg {
+        font-size: 5px;
+    }
+}
+
+@media screen and (max-width:480px) {
+    .addAll {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 50px;
+        height: 30px;
+        font-size: 7px;
+        gap: 0.1rem;
+    }
+}

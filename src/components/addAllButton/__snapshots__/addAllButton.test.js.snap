@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AddAllButton component renders correctly 1`] = `
+<button
+  className="addAll"
+  onClick={[Function]}
+>
+  <svg
+    fill="currentColor"
+    height="1em"
+    stroke="currentColor"
+    strokeWidth="0"
+    style={
+      Object {
+        "color": undefined,
+        "display": "inline-block",
+      }
+    }
+    viewBox="0 0 512 512"
+    width="1em"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path
+      d="M256 112v288m144-144H112"
+      fill="none"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      strokeWidth="32"
+    />
+  </svg>
+  <span>
+    Add All
+  </span>
+</button>
+`;
